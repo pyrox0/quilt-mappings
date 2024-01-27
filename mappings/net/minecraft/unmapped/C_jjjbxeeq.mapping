@@ -1,0 +1,7 @@
+CLASS net/minecraft/unmapped/C_jjjbxeeq
+	METHOD m_jnrduxam lootPredicate (Lnet/minecraft/unmapped/C_bprdujxm;)Lnet/minecraft/unmapped/C_jjjbxeeq$C_jkvjkqdv;
+	METHOD m_qngglgoe lootTable (Lnet/minecraft/unmapped/C_bprdujxm;)Lnet/minecraft/unmapped/C_jjjbxeeq$C_qmxdluhx;
+	METHOD m_zsyzdsvv lootModifier (Lnet/minecraft/unmapped/C_bprdujxm;)Lnet/minecraft/unmapped/C_jjjbxeeq$C_awekqpxr;
+	CLASS C_awekqpxr LootModifierArgumentType
+	CLASS C_jkvjkqdv LootPredicateArgumentType
+	CLASS C_qmxdluhx LootTableArgumentType

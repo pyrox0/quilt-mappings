@@ -1,0 +1,7 @@
+CLASS net/minecraft/unmapped/C_tzvgbkzf
+	FIELD f_fkyyazre type Ljava/lang/String;
+	FIELD f_kazgyliv dimension Lnet/minecraft/unmapped/C_xhhleach;
+	FIELD f_sccliqjr level Ljava/lang/String;
+	METHOD m_ilgvathw type ()Ljava/lang/String;
+	METHOD m_klqkgzix dimension ()Lnet/minecraft/unmapped/C_xhhleach;
+	METHOD m_mcwguifj level ()Ljava/lang/String;

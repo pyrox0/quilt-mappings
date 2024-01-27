@@ -1,0 +1,13 @@
+CLASS net/minecraft/unmapped/C_pubtmkke
+	METHOD m_mhnyqnyc (Lnet/minecraft/unmapped/C_biqpbxns;IF)Lnet/minecraft/unmapped/C_vgpupfxx;
+		ARG 1 attachment
+	METHOD m_rfotkcao (Lnet/minecraft/unmapped/C_biqpbxns;IF)Lnet/minecraft/unmapped/C_vgpupfxx;
+		ARG 1 attachment
+	METHOD m_tcqsnpme (Lnet/minecraft/unmapped/C_biqpbxns;IF)Lnet/minecraft/unmapped/C_vgpupfxx;
+		ARG 1 attachment
+	CLASS C_qexjibym
+		METHOD m_awxtqxkn (Lnet/minecraft/unmapped/C_biqpbxns;FFF)Lnet/minecraft/unmapped/C_pubtmkke$C_qexjibym;
+			ARG 1 attachment
+		METHOD m_wgusdhab (Lnet/minecraft/unmapped/C_biqpbxns;Lnet/minecraft/unmapped/C_vgpupfxx;)Lnet/minecraft/unmapped/C_pubtmkke$C_qexjibym;
+			ARG 1 attachment
+			ARG 2 pos

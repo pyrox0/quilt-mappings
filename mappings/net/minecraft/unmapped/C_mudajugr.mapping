@@ -1,0 +1,7 @@
+CLASS net/minecraft/unmapped/C_mudajugr
+	METHOD m_qdwxuhpk lastRecipe ()Lnet/minecraft/unmapped/C_dscbrwbj;
+	METHOD m_qysvzsry (Lnet/minecraft/unmapped/C_jzrpycqo;Ljava/util/List;)V
+		ARG 1 playerEntity
+		ARG 2 item
+	METHOD m_shzndkyk setLastRecipe (Lnet/minecraft/unmapped/C_dscbrwbj;)V
+		ARG 1 recipe

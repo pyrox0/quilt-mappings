@@ -1,0 +1,4 @@
+CLASS net/minecraft/unmapped/C_hiksfskl
+	METHOD encode writeToBuf (Ljava/lang/Object;Ljava/lang/Object;)V
+		ARG 1 buf
+		ARG 2 stack

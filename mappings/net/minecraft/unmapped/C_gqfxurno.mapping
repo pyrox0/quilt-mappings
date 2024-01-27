@@ -1,0 +1,20 @@
+CLASS net/minecraft/unmapped/C_gqfxurno
+	FIELD f_chiawipp itemStack Lnet/minecraft/unmapped/C_sddaxwyk;
+	FIELD f_eomiynpx item Lnet/minecraft/unmapped/C_cjzoxshv;
+	FIELD f_gguzhqie OPTIONAL_PACKET_CODEC Lnet/minecraft/unmapped/C_qsrmwluu;
+	FIELD f_kataqrye count I
+	FIELD f_qphcfncz PACKET_CODEC Lnet/minecraft/unmapped/C_qsrmwluu;
+	FIELD f_ulkwijnt components Lnet/minecraft/unmapped/C_naseleda;
+	FIELD f_zvavzkgq CODEC Lcom/mojang/serialization/Codec;
+	METHOD <init> (Lnet/minecraft/unmapped/C_cjzoxshv;ILnet/minecraft/unmapped/C_naseleda;)V
+		ARG 1 item
+	METHOD <init> (Lnet/minecraft/unmapped/C_gmbqjnle;I)V
+		ARG 1 item
+	METHOD m_afqgdbfa item ()Lnet/minecraft/unmapped/C_cjzoxshv;
+	METHOD m_drzzrfud (Lnet/minecraft/unmapped/C_cjzoxshv;ILnet/minecraft/unmapped/C_naseleda;)Lnet/minecraft/unmapped/C_sddaxwyk;
+		ARG 0 item
+	METHOD m_irztxmnd itemStack ()Lnet/minecraft/unmapped/C_sddaxwyk;
+	METHOD m_isbsseeg components ()Lnet/minecraft/unmapped/C_naseleda;
+	METHOD m_qjcqkltg count ()I
+	METHOD m_rwcrwpnv (Lnet/minecraft/unmapped/C_sddaxwyk;)Z
+		ARG 1 stack

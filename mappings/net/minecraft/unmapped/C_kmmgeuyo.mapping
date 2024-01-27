@@ -1,0 +1,9 @@
+CLASS net/minecraft/unmapped/C_kmmgeuyo
+	METHOD m_jblfntpt countPerSecond ()D
+	METHOD m_lsxyygsu bytesPerSecond ()D
+	METHOD m_ydagdill count ()J
+	METHOD m_zpvdsyyj totalBytes ()J
+	CLASS C_qnaqikgk
+		METHOD m_hjshamqv count ()J
+		METHOD m_unvpwyfz averageSize ()F
+		METHOD m_xlurvmzf totalBytes ()J

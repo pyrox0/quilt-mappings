@@ -1,0 +1,7 @@
+CLASS net/minecraft/unmapped/C_wkpqgkjo
+	FIELD f_hfhsoblr networkHandler Lnet/minecraft/unmapped/C_nuofrxvi;
+	METHOD <init> (Lnet/minecraft/unmapped/C_nuofrxvi;Lnet/minecraft/unmapped/C_epxplegp;)V
+		ARG 1 networkHandler
+		ARG 2 hud
+	METHOD m_jvnraaeu (Lnet/minecraft/unmapped/C_pknzjcql;)V
+		ARG 1 sampleType

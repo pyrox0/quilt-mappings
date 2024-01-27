@@ -1,0 +1,6 @@
+CLASS net/minecraft/unmapped/C_czyoqmgb
+	FIELD f_ntxxpsby CODEC Lcom/mojang/serialization/Codec;
+	FIELD f_vnlciovk SHARED_DATA Ljava/lang/String;
+	METHOD m_peidteny getStack ()Lnet/minecraft/unmapped/C_sddaxwyk;
+	METHOD m_pvggzzmu getConnectedParticlesRange ()D
+	METHOD m_tbrsykxh getConnectedPlayers ()Ljava/util/Set;

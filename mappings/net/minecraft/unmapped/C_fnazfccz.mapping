@@ -1,0 +1,7 @@
+CLASS net/minecraft/unmapped/C_fnazfccz
+	FIELD f_aushzjqc TOTAL_BUFFER_SIZE I
+	METHOD close closeRenderBuffers ()V
+	METHOD m_ujntkiki discardBuffers ()V
+	METHOD m_xyydoicj clearRenderBuffers ()V
+	METHOD m_zbdxhxwu getBuffer (Lnet/minecraft/unmapped/C_tizlwnnv;)Lnet/minecraft/unmapped/C_nxnqmnng;
+		ARG 1 layer
