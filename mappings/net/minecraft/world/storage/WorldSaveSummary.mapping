@@ -25,7 +25,7 @@ CLASS net/minecraft/unmapped/C_wfuumzdp net/minecraft/world/storage/WorldSaveSum
 	METHOD m_crkhefuo shouldBackup ()Z
 	METHOD m_csoxbxde canDelete ()Z
 	METHOD m_cwblqxgd createDetails ()Lnet/minecraft/unmapped/C_rdaqiwdt;
-	METHOD m_dwjmxrrg canUpload ()Z
+	METHOD m_dwjmxrrg isImmediatelyLoadable ()Z
 	METHOD m_ekvjmryp getFile ()Ljava/nio/file/Path;
 	METHOD m_favsnebh canEdit ()Z
 	METHOD m_kbqhcyeh getName ()Ljava/lang/String;

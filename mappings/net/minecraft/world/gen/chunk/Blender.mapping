@@ -1,17 +1,22 @@
 CLASS net/minecraft/unmapped/C_pfqozslu net/minecraft/world/gen/chunk/Blender
+	FIELD f_cbrgjvfy blendingData Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;
 	FIELD f_dgguujmb EMPTY Lnet/minecraft/unmapped/C_pfqozslu;
 	FIELD f_hwvkcntf DENSITY_BLENDING_RANGE_CHUNKS I
 	FIELD f_jhzgfobi DENSITY_BLENDING_RANGE_CELLS I
 	FIELD f_ngiqjzuy SHIFT_NOISE Lnet/minecraft/unmapped/C_rxrtfjrt;
 	FIELD f_phpnetae HEIGHT_BLENDING_RANGE_CELLS I
+	FIELD f_psgkvuuf blendingDataForDensityBlending Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;
 	FIELD f_qstndhje OLD_CHUNK_HORIZONTAL_RADIUS D
 	FIELD f_sqwbcifk HEIGHT_BLENDING_RANGE_CHUNKS I
 	METHOD <init> (Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;)V
 		ARG 1 blendingData
 		ARG 2 blendingDataForDensityBlending
 	METHOD m_aicyryxs createOldChunkDistanceProvider (Lnet/minecraft/unmapped/C_jfjllmkc;Ljava/util/Map;)Lnet/minecraft/unmapped/C_pfqozslu$C_adfrewea;
+		ARG 0 blendingData
+		ARG 1 map
 	METHOD m_bpwodtxk (Ljava/util/List;Lnet/minecraft/unmapped/C_qjdfuoud;Lnet/minecraft/unmapped/C_jfjllmkc;)V
 		ARG 1 direction
+		ARG 2 blendingData
 	METHOD m_bskbymmx getBlendingDataValue (IIILnet/minecraft/unmapped/C_pfqozslu$C_oputthuz;)D
 		ARG 1 x
 		ARG 2 y
@@ -50,6 +55,7 @@ CLASS net/minecraft/unmapped/C_pfqozslu net/minecraft/world/gen/chunk/Blender
 		ARG 4 z
 	METHOD m_oyroclmg createOffsetOldChunkDistanceProvider (Lnet/minecraft/unmapped/C_qjdfuoud;Lnet/minecraft/unmapped/C_jfjllmkc;)Lnet/minecraft/unmapped/C_pfqozslu$C_adfrewea;
 		ARG 0 direction
+		ARG 1 blendingData
 	METHOD m_pyxfjdtw (Ljava/util/List;DDD)D
 		ARG 1 x
 		ARG 3 y
@@ -69,6 +75,7 @@ CLASS net/minecraft/unmapped/C_pfqozslu net/minecraft/world/gen/chunk/Blender
 	METHOD m_ucezxvvb blendBiome (III)Lnet/minecraft/unmapped/C_cjzoxshv;
 		ARG 1 x
 		ARG 2 y
+		ARG 3 z
 	METHOD m_vfcqfiqd getBiomeSupplier (Lnet/minecraft/unmapped/C_nhlknxak;)Lnet/minecraft/unmapped/C_nhlknxak;
 		ARG 1 biomeSupplier
 	METHOD m_wzxwomov blendDensity (Lnet/minecraft/unmapped/C_kzwapyud$C_rbrbrmhy;D)D

@@ -49,6 +49,7 @@ CLASS net/minecraft/unmapped/C_aehiirzw net/minecraft/world/chunk/palette/Palett
 		ARG 1 entryCodec
 		ARG 2 paletteProvider
 		ARG 3 partialId
+		ARG 4 reader
 	METHOD m_tldeonzq applyEach ([ILjava/util/function/IntUnaryOperator;)V
 		ARG 0 appliedTo
 		ARG 1 operator

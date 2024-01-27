@@ -123,11 +123,19 @@ CLASS net/minecraft/unmapped/C_ohqwadgy net/minecraft/world/biome/source/util/Mu
 			ARG 1 o
 		METHOD m_baacvuuz temperature ()Lnet/minecraft/unmapped/C_ohqwadgy$C_pmcopbbm;
 		METHOD m_cckofhog depth ()Lnet/minecraft/unmapped/C_ohqwadgy$C_pmcopbbm;
+		METHOD m_dmdabrdh (Lnet/minecraft/unmapped/C_ohqwadgy$C_mssdhkan;)Lnet/minecraft/unmapped/C_ohqwadgy$C_pmcopbbm;
+			ARG 0 noise
 		METHOD m_hytqfuep erosion ()Lnet/minecraft/unmapped/C_ohqwadgy$C_pmcopbbm;
+		METHOD m_ifhlweph (Lnet/minecraft/unmapped/C_ohqwadgy$C_mssdhkan;)Lnet/minecraft/unmapped/C_ohqwadgy$C_pmcopbbm;
+			ARG 0 noise
+		METHOD m_kahwnebu (Lnet/minecraft/unmapped/C_ohqwadgy$C_mssdhkan;)Lnet/minecraft/unmapped/C_ohqwadgy$C_pmcopbbm;
+			ARG 0 noise
 		METHOD m_lsjojzbf (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
 			ARG 0 instance
 		METHOD m_nfpodyhl weirdness ()Lnet/minecraft/unmapped/C_ohqwadgy$C_pmcopbbm;
 		METHOD m_ovpkefuo humidity ()Lnet/minecraft/unmapped/C_ohqwadgy$C_pmcopbbm;
+		METHOD m_qhysprcn (Lnet/minecraft/unmapped/C_ohqwadgy$C_mssdhkan;)Lnet/minecraft/unmapped/C_ohqwadgy$C_pmcopbbm;
+			ARG 0 noise
 		METHOD m_rwzucafl continentalness ()Lnet/minecraft/unmapped/C_ohqwadgy$C_pmcopbbm;
 		METHOD m_tdtipvgp offset ()J
 		METHOD m_udbwguua getSquaredDistance (Lnet/minecraft/unmapped/C_ohqwadgy$C_dytvikps;)J
@@ -145,6 +153,10 @@ CLASS net/minecraft/unmapped/C_ohqwadgy net/minecraft/world/biome/source/util/Mu
 			COMMENT biome that offers a closest point to its arbitrary point.
 			ARG 1 point
 		METHOD m_ukyndapu parameters ()Ljava/util/List;
+		METHOD m_vvvktqaa (Lnet/minecraft/unmapped/C_ohqwadgy$C_mssdhkan;)Lnet/minecraft/unmapped/C_ohqwadgy$C_pmcopbbm;
+			ARG 0 noise
+		METHOD m_wycxkzsa (Lnet/minecraft/unmapped/C_ohqwadgy$C_mssdhkan;)Lnet/minecraft/unmapped/C_ohqwadgy$C_pmcopbbm;
+			ARG 0 noise
 	CLASS C_nnadhegj NoiseDistanceFunction
 		METHOD distance getDistance (Lnet/minecraft/unmapped/C_ohqwadgy$C_svnvfttg$C_xlopokcr;[J)J
 			ARG 1 node
@@ -203,6 +215,8 @@ CLASS net/minecraft/unmapped/C_ohqwadgy net/minecraft/world/biome/source/util/Mu
 			ARG 1 max
 		METHOD m_ielvfbtq getDistance (Lnet/minecraft/unmapped/C_ohqwadgy$C_pmcopbbm;)J
 			ARG 1 other
+		METHOD m_iyxjzubh (Lnet/minecraft/unmapped/C_ohqwadgy$C_pmcopbbm;)Ljava/lang/Float;
+			ARG 0 range
 		METHOD m_rlusextr max ()J
 		METHOD m_sncmghym min ()J
 		METHOD m_ukbzgghv (Lnet/minecraft/unmapped/C_ohqwadgy$C_pmcopbbm;)Ljava/lang/Float;
@@ -212,6 +226,9 @@ CLASS net/minecraft/unmapped/C_ohqwadgy net/minecraft/world/biome/source/util/Mu
 		METHOD m_vjrnteeh of (F)Lnet/minecraft/unmapped/C_ohqwadgy$C_pmcopbbm;
 			ARG 0 value
 		METHOD m_vkehidss of (FF)Lnet/minecraft/unmapped/C_ohqwadgy$C_pmcopbbm;
+			ARG 0 min
+			ARG 1 max
+		METHOD m_zmankvwv (Ljava/lang/Float;Ljava/lang/Float;)Lcom/mojang/serialization/DataResult;
 			ARG 0 min
 			ARG 1 max
 	CLASS C_svnvfttg SearchTree

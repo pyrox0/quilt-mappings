@@ -149,6 +149,7 @@ CLASS net/minecraft/unmapped/C_pneibfez net/minecraft/world/border/WorldBorder
 		METHOD m_btawsilq writeNbt (Lnet/minecraft/unmapped/C_hhlwcnih;)V
 			ARG 1 nbt
 		METHOD m_ccfbbyzi fromDynamic (Lcom/mojang/serialization/DynamicLike;Lnet/minecraft/unmapped/C_pneibfez$C_koayjdos;)Lnet/minecraft/unmapped/C_pneibfez$C_koayjdos;
+			ARG 0 dynamic
 			ARG 1 properties
 		METHOD m_dsmxdcba getWarningBlocks ()I
 		METHOD m_dtgfbjqm getCenterX ()D

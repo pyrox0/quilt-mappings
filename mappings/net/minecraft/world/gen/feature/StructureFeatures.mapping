@@ -1,2 +1,18 @@
 CLASS net/minecraft/unmapped/C_eheutewl net/minecraft/world/gen/feature/StructureFeatures
 	METHOD m_avmulgvg bootstrap (Lnet/minecraft/unmapped/C_hqoyyfco;)V
+	METHOD m_kvaxbdry createSettings (Lnet/minecraft/unmapped/C_odfnijdo;Lnet/minecraft/unmapped/C_djexrdop;)Lnet/minecraft/unmapped/C_quklzgtb$C_dnbqyhbk;
+		ARG 0 biome
+		ARG 1 adjustment
+	METHOD m_nitcwmqh (Lnet/minecraft/unmapped/C_ormqdxci;)Lnet/minecraft/unmapped/C_fgfnvden;
+		ARG 0 spawnOverride
+	METHOD m_nxhmwbta createSettings (Lnet/minecraft/unmapped/C_odfnijdo;Ljava/util/Map;Lnet/minecraft/unmapped/C_rdrmebyw$C_eibovkzt;Lnet/minecraft/unmapped/C_djexrdop;)Lnet/minecraft/unmapped/C_quklzgtb$C_dnbqyhbk;
+		ARG 0 biome
+		ARG 1 mobSpawnOverrides
+		ARG 2 feature
+		ARG 3 adjustment
+	METHOD m_rtlwhdbe createSettings (Lnet/minecraft/unmapped/C_odfnijdo;Lnet/minecraft/unmapped/C_rdrmebyw$C_eibovkzt;Lnet/minecraft/unmapped/C_djexrdop;)Lnet/minecraft/unmapped/C_quklzgtb$C_dnbqyhbk;
+		ARG 0 biome
+		ARG 1 feature
+		ARG 2 adjustment
+	METHOD m_shdiqrve (Lnet/minecraft/unmapped/C_ormqdxci;)Lnet/minecraft/unmapped/C_ormqdxci;
+		ARG 0 spawnGroup

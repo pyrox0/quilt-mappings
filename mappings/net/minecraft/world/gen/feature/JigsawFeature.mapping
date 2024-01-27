@@ -21,6 +21,8 @@ CLASS net/minecraft/unmapped/C_vdwtfnar net/minecraft/world/gen/feature/JigsawFe
 		ARG 4 startHeight
 		ARG 5 useExpansionHack
 		ARG 6 projectStartToHeightmap
+	METHOD <init> (Lnet/minecraft/unmapped/C_quklzgtb$C_dnbqyhbk;Lnet/minecraft/unmapped/C_cjzoxshv;Ljava/util/Optional;ILnet/minecraft/unmapped/C_smrkpdzj;ZLjava/util/Optional;ILjava/util/List;)V
+		ARG 1 settings
 	METHOD m_ayxupmlh (Lnet/minecraft/unmapped/C_vdwtfnar;)Lnet/minecraft/unmapped/C_smrkpdzj;
 		ARG 0 feature
 	METHOD m_cxrspelx (Lnet/minecraft/unmapped/C_vdwtfnar;)Ljava/lang/Integer;
@@ -32,7 +34,12 @@ CLASS net/minecraft/unmapped/C_vdwtfnar net/minecraft/world/gen/feature/JigsawFe
 	METHOD m_fxmrvwca (Lnet/minecraft/unmapped/C_vdwtfnar;)Ljava/util/Optional;
 		ARG 0 feature
 	METHOD m_ncftwoda verifyRange (Lnet/minecraft/unmapped/C_vdwtfnar;)Lcom/mojang/serialization/DataResult;
+		ARG 0 feature
+	METHOD m_ovlqauxq (Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;
+		ARG 0 feature
 	METHOD m_pwkpyblb (Lnet/minecraft/unmapped/C_vdwtfnar;)Lnet/minecraft/unmapped/C_cjzoxshv;
 		ARG 0 feature
 	METHOD m_vbwopequ (Lnet/minecraft/unmapped/C_vdwtfnar;)Ljava/util/Optional;
+		ARG 0 feature
+	METHOD m_ywxdqoox (Lnet/minecraft/unmapped/C_vdwtfnar;)Ljava/util/List;
 		ARG 0 feature

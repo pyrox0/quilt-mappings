@@ -200,6 +200,7 @@ CLASS net/minecraft/unmapped/C_xmldumst net/minecraft/world/GameRules
 		METHOD m_ncqmhctf validate (Ljava/lang/String;)Z
 			COMMENT Validates that an input is valid for this rule.
 			ARG 1 input
+		METHOD m_pzcrszpq create (IIILjava/util/function/BiConsumer;)Lnet/minecraft/unmapped/C_xmldumst$C_mymgluou;
 		METHOD m_qfnkciid create (I)Lnet/minecraft/unmapped/C_xmldumst$C_mymgluou;
 			ARG 0 initialValue
 		METHOD m_tezsywhc create (ILjava/util/function/BiConsumer;)Lnet/minecraft/unmapped/C_xmldumst$C_mymgluou;

@@ -16,6 +16,9 @@ CLASS net/minecraft/unmapped/C_iwuefjcy net/minecraft/world/gen/foliage/FoliageP
 		ARG 0 world
 		ARG 3 config
 		ARG 4 pos
+	METHOD m_fylecjal (Lnet/minecraft/unmapped/C_agsukcmb;Lnet/minecraft/unmapped/C_iwuefjcy$C_pwcqvmho;Lnet/minecraft/unmapped/C_rlomrsco;Lnet/minecraft/unmapped/C_zthydktd;ILnet/minecraft/unmapped/C_iwuefjcy$C_uditupge;II)V
+		ARG 4 config
+		ARG 6 treeNode
 	METHOD m_gnnnomut getRandomOffset (Lnet/minecraft/unmapped/C_rlomrsco;)I
 	METHOD m_hjzzwqgw getRandomHeight (Lnet/minecraft/unmapped/C_rlomrsco;ILnet/minecraft/unmapped/C_zthydktd;)I
 		ARG 2 trunkHeight

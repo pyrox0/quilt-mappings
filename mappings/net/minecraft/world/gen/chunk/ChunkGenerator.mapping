@@ -18,6 +18,7 @@ CLASS net/minecraft/unmapped/C_kgfalbim net/minecraft/world/gen/chunk/ChunkGener
 	METHOD m_bbjdszxg setStructureStarts (Lnet/minecraft/unmapped/C_wqxmvzdq;Lnet/minecraft/unmapped/C_jibygqpu;Lnet/minecraft/unmapped/C_rhdulivw;Lnet/minecraft/unmapped/C_lwzmmmqr;Lnet/minecraft/unmapped/C_zxhjfyir;)V
 		COMMENT Determines which structures should start in the given chunk and creates their starting points.
 		ARG 1 registryManager
+		ARG 2 ringPlacementCalculator
 		ARG 3 structureManager
 		ARG 4 chunk
 		ARG 5 templateManager
@@ -70,13 +71,24 @@ CLASS net/minecraft/unmapped/C_kgfalbim net/minecraft/world/gen/chunk/ChunkGener
 		ARG 1 chunk
 		ARG 2 sectionPos
 		ARG 3 feature
+	METHOD m_gpjywhgs (Lnet/minecraft/unmapped/C_rhdulivw;Lnet/minecraft/unmapped/C_hynzadkk;Lnet/minecraft/unmapped/C_efiavfys;)Z
+		ARG 2 start
+	METHOD m_guqvnsnd (Lnet/minecraft/unmapped/C_hynzadkk;Lnet/minecraft/unmapped/C_efiavfys;)Z
+		ARG 1 box
 	METHOD m_gvpevbgi checkNotReferenced (Lnet/minecraft/unmapped/C_rhdulivw;Lnet/minecraft/unmapped/C_efiavfys;)Z
 		ARG 0 structureManager
 		ARG 1 start
+	METHOD m_gxxzcexz (Ljava/util/Set;Lnet/minecraft/unmapped/C_eemzphbi;Lnet/minecraft/unmapped/C_rhdulivw;ZLnet/minecraft/unmapped/C_dzcnonip;Lnet/minecraft/unmapped/C_ynrszrtu;)Lcom/mojang/datafixers/util/Pair;
+		ARG 0 structureFeatures
+		ARG 2 structureManager
+		ARG 4 placement
+		ARG 5 chunkPos
 	METHOD m_gzmnagwo (Lnet/minecraft/unmapped/C_cjzoxshv;)Lnet/minecraft/unmapped/C_qbjpvmph;
 		ARG 0 biome
 	METHOD m_hfetlfug (Ljava/util/List;Lnet/minecraft/unmapped/C_edfiqifk;Lnet/minecraft/unmapped/C_hynzadkk;)V
 		ARG 2 randomState
+	METHOD m_hwpfjgka (Lnet/minecraft/unmapped/C_rhdulivw;Lnet/minecraft/unmapped/C_zubvmeye;Lnet/minecraft/unmapped/C_lwzmmmqr;Lnet/minecraft/unmapped/C_jibygqpu;Lnet/minecraft/unmapped/C_ynrszrtu;Lnet/minecraft/unmapped/C_wqxmvzdq;Lnet/minecraft/unmapped/C_edfiqifk;Lnet/minecraft/unmapped/C_zxhjfyir;Lnet/minecraft/unmapped/C_cjzoxshv;)V
+		ARG 9 holder
 	METHOD m_jbuktzxf getHeightOnGround (IILnet/minecraft/unmapped/C_ybztoekc$C_wkdeqzbn;Lnet/minecraft/unmapped/C_qpninoyb;Lnet/minecraft/unmapped/C_edfiqifk;)I
 		ARG 1 x
 		ARG 2 z
@@ -92,6 +104,13 @@ CLASS net/minecraft/unmapped/C_kgfalbim net/minecraft/world/gen/chunk/ChunkGener
 	METHOD m_jnrbhhio findFirst (Lnet/minecraft/unmapped/C_bdwnwhiu;Lnet/minecraft/unmapped/C_odfnijdo;Lnet/minecraft/unmapped/C_hynzadkk;IZ)Lcom/mojang/datafixers/util/Pair;
 		ARG 2 structures
 		ARG 4 range
+	METHOD m_locgzhcn (Ljava/util/Set;Lnet/minecraft/unmapped/C_eemzphbi;Lnet/minecraft/unmapped/C_rhdulivw;IIIZJLnet/minecraft/unmapped/C_cznbjngb;)Lcom/mojang/datafixers/util/Pair;
+		ARG 0 structureFeatures
+		ARG 2 structureManager
+		ARG 7 seed
+		ARG 9 structurePlacement
+	METHOD m_pcreqlep (Lnet/minecraft/unmapped/C_ldkphtbr;Lnet/minecraft/unmapped/C_rhdulivw;Lnet/minecraft/unmapped/C_zorcemxg;Lnet/minecraft/unmapped/C_lwzmmmqr;Lnet/minecraft/unmapped/C_ynrszrtu;Lnet/minecraft/unmapped/C_efiavfys;)V
+		ARG 6 structure
 	METHOD m_psbleumj findStructures (Ljava/util/Set;Lnet/minecraft/unmapped/C_bdwnwhiu;Lnet/minecraft/unmapped/C_rhdulivw;Lnet/minecraft/unmapped/C_hynzadkk;ZLnet/minecraft/unmapped/C_pwqsutzz;)Lcom/mojang/datafixers/util/Pair;
 		ARG 1 structures
 		ARG 3 structureManager
