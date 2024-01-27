@@ -3,19 +3,36 @@ CLASS net/minecraft/unmapped/C_phqvxqun net/minecraft/server/integrated/Integrat
 	FIELD f_kyrzucgn levelStorage Lnet/minecraft/unmapped/C_bpwagnit;
 	METHOD <init> (Lnet/minecraft/unmapped/C_ayfeobid;Lnet/minecraft/unmapped/C_bpwagnit;)V
 		ARG 2 levelStorage
+	METHOD m_dbhhhmfe (Lcom/mojang/serialization/Dynamic;ZLnet/minecraft/unmapped/C_dqfyacfy;)Lnet/minecraft/unmapped/C_tljyhzqp;
+		ARG 3 packManager
 	METHOD m_eekrofzx createStorageSession (Ljava/lang/String;)Lnet/minecraft/unmapped/C_bpwagnit$C_unecclfw;
 		ARG 1 worldName
 	METHOD m_lrueasex createAndStart (Ljava/lang/String;Lnet/minecraft/unmapped/C_tmnkpzlg;Lnet/minecraft/unmapped/C_naismckd;Ljava/util/function/Function;Lnet/minecraft/unmapped/C_wrmtlwqx;)V
 		ARG 1 worldName
 		ARG 2 levelInfo
+		ARG 3 worldGeneratorOptions
+		ARG 5 screen
 	METHOD m_mxzmxaxb tryLoad (Lnet/minecraft/unmapped/C_ayfeobid;Lnet/minecraft/unmapped/C_ibkofvzc;Lcom/mojang/serialization/Lifecycle;Ljava/lang/Runnable;Z)V
 		ARG 1 parentScreen
 		ARG 2 dynamicRegistryLifecycle
 		ARG 3 successCallback
+	METHOD m_ocpkzrtb worldStem (Lnet/minecraft/unmapped/C_kjxfcecs$C_nrmvgbka;Lnet/minecraft/unmapped/C_kjxfcecs$C_ueybpquh;Lnet/minecraft/unmapped/C_kjxfcecs$C_cknyxhnl;)Ljava/lang/Object;
+		ARG 1 config
+		ARG 2 supplier
+		ARG 3 applier
 	METHOD m_odfpffog showPackLoadFailureScreen ()Ljava/util/concurrent/CompletableFuture;
 	METHOD m_pemmxxxv askForBackup (Lnet/minecraft/unmapped/C_bpwagnit$C_unecclfw;ZLjava/lang/Runnable;Ljava/lang/Runnable;)V
+		ARG 1 session
 		ARG 2 legacyCustomized
 		ARG 3 callback
+	METHOD m_tevceqxd (Ljava/util/function/Function;Lnet/minecraft/unmapped/C_tmnkpzlg;Lnet/minecraft/unmapped/C_naismckd;Lnet/minecraft/unmapped/C_kjxfcecs$C_hkmknvtj;)Lnet/minecraft/unmapped/C_kjxfcecs$C_ijyqofsr;
+		ARG 3 context
+	METHOD m_weunchkk (Lcom/mojang/serialization/Dynamic;Lnet/minecraft/unmapped/C_kjxfcecs$C_hkmknvtj;)Lnet/minecraft/unmapped/C_kjxfcecs$C_ijyqofsr;
+		ARG 1 context
+	METHOD m_xonecuhw (Lcom/mojang/serialization/Dynamic;Lnet/minecraft/unmapped/C_kjxfcecs$C_hkmknvtj;)Lnet/minecraft/unmapped/C_kjxfcecs$C_ijyqofsr;
+		ARG 1 context
+	METHOD m_ybvlofhx (Lnet/minecraft/unmapped/C_bpwagnit$C_unecclfw;)Lcom/mojang/datafixers/util/Pair;
+		ARG 1 session
 	METHOD m_zxibpgzz start (Lnet/minecraft/unmapped/C_bpwagnit$C_unecclfw;Lnet/minecraft/unmapped/C_migzkpst;Lnet/minecraft/unmapped/C_bcpxdrik;Lnet/minecraft/unmapped/C_jkevluio;)V
 		ARG 1 storageSession
 		ARG 4 saveProperties

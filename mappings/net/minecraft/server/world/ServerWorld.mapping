@@ -35,7 +35,6 @@ CLASS net/minecraft/unmapped/C_bdwnwhiu net/minecraft/server/world/ServerWorld
 		ARG 3 session
 		ARG 6 dimensionOptions
 		ARG 7 worldgenProgressListener
-		ARG 13 randomSequences
 	METHOD m_acuodrlx getLightningRodPos (Lnet/minecraft/unmapped/C_hynzadkk;)Ljava/util/Optional;
 		ARG 1 pos
 	METHOD m_aonmqwml onPlayerRespawned (Lnet/minecraft/unmapped/C_mxrobsgg;)V
@@ -118,6 +117,8 @@ CLASS net/minecraft/unmapped/C_bdwnwhiu net/minecraft/server/world/ServerWorld
 		ARG 1 progressListener
 		ARG 2 flush
 		ARG 3 savingDisabled
+	METHOD m_jbznwjjj (Lnet/minecraft/unmapped/C_phmnykiz;Lnet/minecraft/unmapped/C_eslcbfsq;Lnet/minecraft/unmapped/C_astfners;)V
+		ARG 3 entity
 	METHOD m_jhwkhqgo isNearOccupiedPointOfInterest (Lnet/minecraft/unmapped/C_hynzadkk;I)Z
 		ARG 1 pos
 		ARG 2 maxDistance
@@ -140,6 +141,8 @@ CLASS net/minecraft/unmapped/C_bdwnwhiu net/minecraft/server/world/ServerWorld
 	METHOD m_mnsqmupw tickTime ()V
 	METHOD m_mvfbcepu addEntities (Ljava/util/stream/Stream;)V
 		ARG 1 entities
+	METHOD m_niawfzmz (Lnet/minecraft/unmapped/C_mxrobsgg;)V
+		ARG 0 entity
 	METHOD m_nolhpgre (Lnet/minecraft/unmapped/C_hrdsvlkq;)V
 		ARG 1 chunk
 	METHOD m_odekrajn spawnParticles (Lnet/minecraft/unmapped/C_nqucohct;DDDIDDDD)I
@@ -228,12 +231,18 @@ CLASS net/minecraft/unmapped/C_bdwnwhiu net/minecraft/server/world/ServerWorld
 		ARG 1 classifier
 			COMMENT the classifier that determines the category of any item
 	METHOD m_xdcituba resetWeather ()V
+	METHOD m_xiuvolyr (Lnet/minecraft/unmapped/C_hxzjzvro;)V
+		ARG 1 enderDragonFight
 	METHOD m_xjwwchqw unloadEntities (Lnet/minecraft/unmapped/C_hrdsvlkq;)V
 		ARG 1 chunk
+	METHOD m_xxvmtkmp (Lnet/minecraft/unmapped/C_hynzadkk;Lnet/minecraft/unmapped/C_cjzoxshv;)V
+		ARG 2 newBlock
 	METHOD m_xxybxutd setTimeOfDay (J)V
 		ARG 1 timeOfDay
 	METHOD m_ybxknyss tryLoadEntity (Lnet/minecraft/unmapped/C_astfners;)Z
 		ARG 1 entity
+	METHOD m_ydhiidmn (Lnet/minecraft/unmapped/C_hynzadkk;Lnet/minecraft/unmapped/C_cjzoxshv;)V
+		ARG 2 oldBlock
 	METHOD m_ymtrakfc tick (Ljava/util/function/BooleanSupplier;)V
 		ARG 1 shouldKeepTicking
 	METHOD m_yovtvsud findFirstPos (Lnet/minecraft/unmapped/C_ednuhnnn;Lnet/minecraft/unmapped/C_hynzadkk;IZ)Lnet/minecraft/unmapped/C_hynzadkk;

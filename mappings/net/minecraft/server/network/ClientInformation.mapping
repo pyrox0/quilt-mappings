@@ -1,2 +1,4 @@
 CLASS net/minecraft/unmapped/C_elrtgpva net/minecraft/server/network/ClientInformation
+	FIELD f_cvsxudvj MAX_LANGUAGE_CODE_LENGTH I
 	METHOD m_bwtknesc defaults ()Lnet/minecraft/unmapped/C_elrtgpva;
+	METHOD m_vhieosey write (Lnet/minecraft/unmapped/C_idfydwco;)V
