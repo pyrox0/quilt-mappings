@@ -20,13 +20,5 @@ CLASS net/minecraft/unmapped/C_mefvrcdp net/minecraft/block/enums/TrialSpawnerSt
 		FIELD f_kjgegjdt COOLDOWN Lnet/minecraft/unmapped/C_mefvrcdp$C_bccyitsl;
 		FIELD f_niudltvq WAITING Lnet/minecraft/unmapped/C_mefvrcdp$C_bccyitsl;
 		METHOD m_gdzvmyph addParticle (Lnet/minecraft/unmapped/C_lwmufxcy;Lnet/minecraft/unmapped/C_vgpupfxx;Lnet/minecraft/unmapped/C_cdctfzbn;)V
-			ARG 0 particleType
-			ARG 1 pos
-	CLASS C_vevghdwi DisplayEntityRotationSpeeds
-		FIELD f_gauzfeiw SLOW D
-		FIELD f_gljtrkmn NONE D
-		FIELD f_mscpicrf FAST D
-	CLASS C_zwrttbii Luminance
-		FIELD f_cmrzasvm LOW I
-		FIELD f_cuofrvdp HIGH I
-		FIELD f_ycxnnjlw NONE I
+			ARG 0 particle
+			ARG 1 vec
