@@ -287,7 +287,7 @@ CLASS net/minecraft/unmapped/C_idfydwco net/minecraft/network/PacketByteBuf
 			COMMENT the max length of the byte array
 	METHOD m_cozckjjh writeVector3f (Lio/netty/buffer/ByteBuf;Lorg/joml/Vector3f;)V
 		ARG 0 buf
-		ARG 1 vector
+		ARG 1 vector3f
 	METHOD m_cqyrnsig readJson (Lcom/mojang/serialization/Codec;)Ljava/lang/Object;
 		ARG 1 codec
 	METHOD m_cwtxzlod writeVec3d (Lnet/minecraft/unmapped/C_vgpupfxx;)V
@@ -414,9 +414,9 @@ CLASS net/minecraft/unmapped/C_idfydwco net/minecraft/network/PacketByteBuf
 		COMMENT @throws io.netty.handler.codec.DecoderException if the identifier's
 		COMMENT string form is longer than {@value #DEFAULT_MAX_STRING_LENGTH}
 		COMMENT @see #writeIdentifier(Identifier)
-	METHOD m_hpbnyaqq writeQuaternion (Lio/netty/buffer/ByteBuf;Lorg/joml/Quaternionf;)V
+	METHOD m_hpbnyaqq writeQuaternionf (Lio/netty/buffer/ByteBuf;Lorg/joml/Quaternionf;)V
 		ARG 0 buf
-		ARG 1 quaternion
+		ARG 1 quaternionf
 	METHOD m_htwizfmu readVarInt (Ljava/util/function/IntFunction;)Ljava/lang/Object;
 		ARG 1 intFunction
 	METHOD m_hudsjtrd writeVarLong (J)Lnet/minecraft/unmapped/C_idfydwco;
@@ -514,18 +514,18 @@ CLASS net/minecraft/unmapped/C_idfydwco net/minecraft/network/PacketByteBuf
 		COMMENT
 		COMMENT @return the read block hit result
 		COMMENT @see #writeBlockHitResult(BlockHitResult)
-	METHOD m_lkszaayv writeQuaternion (Lorg/joml/Quaternionf;)V
-		ARG 1 quaternion
+	METHOD m_lkszaayv writeQuaternionf (Lorg/joml/Quaternionf;)V
+		ARG 1 quaternionf
 	METHOD m_lnjgpfbn (Lnet/minecraft/unmapped/C_hiksfskl;Lnet/minecraft/unmapped/C_hiksfskl;Ljava/lang/Object;Ljava/lang/Object;)V
 		ARG 3 key
 		ARG 4 value
-	METHOD m_mafeqoqe readNbt (Lio/netty/buffer/ByteBuf;Lnet/minecraft/unmapped/C_fozrrtcx;)Lnet/minecraft/unmapped/C_oivssbvb;
+	METHOD m_mafeqoqe readNbtElement (Lio/netty/buffer/ByteBuf;Lnet/minecraft/unmapped/C_fozrrtcx;)Lnet/minecraft/unmapped/C_oivssbvb;
 		ARG 0 buf
 		ARG 1 nbtTagSizeTracker
 	METHOD m_mdkhzffo readNullable (Lio/netty/buffer/ByteBuf;Lnet/minecraft/unmapped/C_ajdohfrc;)Ljava/lang/Object;
 		ARG 0 buf
 		ARG 1 decoder
-	METHOD m_mhlenoxy readPos (Lio/netty/buffer/ByteBuf;)Lnet/minecraft/unmapped/C_hynzadkk;
+	METHOD m_mhlenoxy writePos (Lio/netty/buffer/ByteBuf;)Lnet/minecraft/unmapped/C_hynzadkk;
 		ARG 0 buf
 	METHOD m_mlaqlvff writeInstant (Ljava/time/Instant;)V
 		COMMENT Writes an instant to this buf. An instant is represented by a long indicating
@@ -564,7 +564,7 @@ CLASS net/minecraft/unmapped/C_idfydwco net/minecraft/network/PacketByteBuf
 	METHOD m_omssfaex writeNullable (Lio/netty/buffer/ByteBuf;Ljava/lang/Object;Lnet/minecraft/unmapped/C_hiksfskl;)V
 		ARG 0 buf
 		ARG 2 encoder
-	METHOD m_pihymbdn readQuaternion ()Lorg/joml/Quaternionf;
+	METHOD m_pihymbdn readQuaternionf ()Lorg/joml/Quaternionf;
 	METHOD m_plevnncf writeRegistryKey (Lnet/minecraft/unmapped/C_xhhleach;)V
 		COMMENT Writes a registry key to this buf. A registry key is represented by an
 		COMMENT identifier.
@@ -707,7 +707,7 @@ CLASS net/minecraft/unmapped/C_idfydwco net/minecraft/network/PacketByteBuf
 	METHOD m_vceclpms readUuid (Lio/netty/buffer/ByteBuf;)Ljava/util/UUID;
 		ARG 0 buf
 	METHOD m_vhgdjglx writeVector3f (Lorg/joml/Vector3f;)V
-		ARG 1 vector
+		ARG 1 vector3f
 	METHOD m_vihbcqeq readIntList ()Lit/unimi/dsi/fastutil/ints/IntList;
 		COMMENT Reads a list of primitive ints from this buf. The ints are stored as var
 		COMMENT ints, with an extra var int in the beginning indicating the size.
