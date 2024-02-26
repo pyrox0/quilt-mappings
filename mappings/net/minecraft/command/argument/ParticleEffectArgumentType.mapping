@@ -1,5 +1,5 @@
 CLASS net/minecraft/unmapped/C_wvjakmzf net/minecraft/command/argument/ParticleEffectArgumentType
-	FIELD f_aoiuihtg context Lnet/minecraft/unmapped/C_vtbxyypo$C_etmlgbig;
+	FIELD f_aoiuihtg provider Lnet/minecraft/unmapped/C_vtbxyypo$C_etmlgbig;
 	FIELD f_blferatl UNKNOWN_PARTICLE_EXCEPTION Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;
 	FIELD f_dqyoljeq EXAMPLES Ljava/util/Collection;
 	METHOD <init> (Lnet/minecraft/unmapped/C_bprdujxm;)V
