@@ -77,6 +77,7 @@ CLASS net/minecraft/unmapped/C_ysvjbfkt net/minecraft/data/client/model/BlockSta
 		ARG 6 topLeftHingeOpenModelId
 		ARG 7 topRightHingeClosedModelId
 		ARG 8 topRightHingeOpenModelId
+	METHOD m_cbfmkwcm registerVault ()V
 	METHOD m_cerawgvb getTurtleEggModel (ILjava/lang/String;Lnet/minecraft/unmapped/C_pgmmajlq;)Lnet/minecraft/unmapped/C_ncpywfca;
 		ARG 1 eggs
 		ARG 2 prefix
